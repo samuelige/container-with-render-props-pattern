@@ -1,12 +1,14 @@
-# React + Vite
+# Render Props Pattern in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple and practical example of how to use the **Render Props Pattern** in React to separate logic from presentation, making components more flexible and reusable.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 About the Project
 
-## Expanding the ESLint configuration
+In React, the **Render Props Pattern** allows you to share logic between components by passing a function as a prop. This function returns the UI you want to render, based on the internal state or data managed by the component.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates:
+- How to build a reusable component using Render Props
+- How to fetch and render dynamic data flexibly
+- How to separate logic (data fetching) from presentation (UI rendering)
